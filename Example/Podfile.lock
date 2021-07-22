@@ -1,0 +1,16 @@
+PODS:
+  - SwiftNATSManager (0.1.0)
+
+DEPENDENCIES:
+  - SwiftNATSManager (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftNATSManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SwiftNATSManager: d1ea824efb3bff4c679c6e6a42cd1a12296a619e
+
+PODFILE CHECKSUM: 87c7396d4073bdc2463f4c57fa2f6409935de329
+
+COCOAPODS: 1.10.0

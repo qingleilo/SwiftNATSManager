@@ -28,9 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3178898120C7441C976CC1BF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		3178898120C7441C976CC1BF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4DC0D47F67A89D080BB2617C /* Pods_SwiftNATSManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftNATSManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		534BC185845F4EE6B226450F /* SwiftNATSManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SwiftNATSManager.podspec; path = ../SwiftNATSManager.podspec; sourceTree = "<group>"; };
+		534BC185845F4EE6B226450F /* SwiftNATSManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SwiftNATSManager.podspec; path = ../SwiftNATSManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* SwiftNATSManager_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftNATSManager_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		83E10BF0EEBF05E2BE3269CD /* Pods-SwiftNATSManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftNATSManager_Example.release.xcconfig"; path = "Target Support Files/Pods-SwiftNATSManager_Example/Pods-SwiftNATSManager_Example.release.xcconfig"; sourceTree = "<group>"; };
 		87DD3626C1A67DAAC88C75E8 /* Pods_SwiftNATSManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftNATSManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4F46DAD998D0F4ABA61B0AD /* Pods-SwiftNATSManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftNATSManager_Example.debug.xcconfig"; path = "Target Support Files/Pods-SwiftNATSManager_Example/Pods-SwiftNATSManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B5F6C0D41113725D2FBCADD6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B5F6C0D41113725D2FBCADD6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D9DBF5AF9C2969A4651164F0 /* Pods-SwiftNATSManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftNATSManager_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftNATSManager_Tests/Pods-SwiftNATSManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E19A937AD61102580E83B916 /* Pods-SwiftNATSManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftNATSManager_Tests.release.xcconfig"; path = "Target Support Files/Pods-SwiftNATSManager_Tests/Pods-SwiftNATSManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -147,7 +147,6 @@
 				D9DBF5AF9C2969A4651164F0 /* Pods-SwiftNATSManager_Tests.debug.xcconfig */,
 				E19A937AD61102580E83B916 /* Pods-SwiftNATSManager_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

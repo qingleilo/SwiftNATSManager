@@ -1,0 +1,6 @@
+framework module Pods_SwiftNATSManager_Tests {
+  umbrella header "Pods-SwiftNATSManager_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
