@@ -20,10 +20,6 @@ it, simply add the following line to your Podfile:
 pod 'SwiftNATSManager'
 ```
 
-## Author
-
-15056568157@163.com, luoqinglei@netinfosz.com
-
 ## License
 
 SwiftNATSManager is available under the MIT license. See the LICENSE file for more info.
